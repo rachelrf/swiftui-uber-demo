@@ -7,17 +7,19 @@
 //
 
 import SwiftUI
+import MapKit
 
-struct ContentView : View {
+struct ContentView: View {
     var body: some View {
-        Text("Hello World")
+        VStack {
+            UberMapView()
+            TripPlannerView()
+        }
     }
 }
 
-#if DEBUG
-struct ContentView_Previews : PreviewProvider {
+struct ContentView_Preview: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
 }
-#endif

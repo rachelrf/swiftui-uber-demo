@@ -15,6 +15,12 @@
 		A0C80B9222B1FCCC007BB8AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C80B9022B1FCCC007BB8AD /* LaunchScreen.storyboard */; };
 		A0C80B9D22B1FCCC007BB8AD /* SwiftUI_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C80B9C22B1FCCC007BB8AD /* SwiftUI_DemoTests.swift */; };
 		A0C80BA822B1FCCC007BB8AD /* SwiftUI_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C80BA722B1FCCC007BB8AD /* SwiftUI_DemoUITests.swift */; };
+		A0C80BB622B20406007BB8AD /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C80BB522B20406007BB8AD /* MapView.swift */; };
+		A0C80BB822B20702007BB8AD /* TripPlannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C80BB722B20702007BB8AD /* TripPlannerView.swift */; };
+		A0C80BBA22B20853007BB8AD /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C80BB922B20853007BB8AD /* HeaderView.swift */; };
+		A0C80BBC22B20C5C007BB8AD /* GoButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C80BBB22B20C5C007BB8AD /* GoButtonView.swift */; };
+		A0C80BBE22B21A68007BB8AD /* UberMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C80BBD22B21A68007BB8AD /* UberMapView.swift */; };
+		A0C80BC022B2F41E007BB8AD /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C80BBF22B2F41E007BB8AD /* UIImageExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		A0C80BA322B1FCCC007BB8AD /* SwiftUI DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0C80BA722B1FCCC007BB8AD /* SwiftUI_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_DemoUITests.swift; sourceTree = "<group>"; };
 		A0C80BA922B1FCCC007BB8AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0C80BB522B20406007BB8AD /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		A0C80BB722B20702007BB8AD /* TripPlannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripPlannerView.swift; sourceTree = "<group>"; };
+		A0C80BB922B20853007BB8AD /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		A0C80BBB22B20C5C007BB8AD /* GoButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoButtonView.swift; sourceTree = "<group>"; };
+		A0C80BBD22B21A68007BB8AD /* UberMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberMapView.swift; sourceTree = "<group>"; };
+		A0C80BBF22B2F41E007BB8AD /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +112,18 @@
 			isa = PBXGroup;
 			children = (
 				A0C80B8522B1FCCB007BB8AD /* AppDelegate.swift */,
+				A0C80BB522B20406007BB8AD /* MapView.swift */,
 				A0C80B8722B1FCCB007BB8AD /* SceneDelegate.swift */,
 				A0C80B8922B1FCCB007BB8AD /* ContentView.swift */,
+				A0C80BB922B20853007BB8AD /* HeaderView.swift */,
+				A0C80BB722B20702007BB8AD /* TripPlannerView.swift */,
+				A0C80BBB22B20C5C007BB8AD /* GoButtonView.swift */,
+				A0C80BBD22B21A68007BB8AD /* UberMapView.swift */,
 				A0C80B8B22B1FCCC007BB8AD /* Assets.xcassets */,
 				A0C80B9022B1FCCC007BB8AD /* LaunchScreen.storyboard */,
 				A0C80B9322B1FCCC007BB8AD /* Info.plist */,
 				A0C80B8D22B1FCCC007BB8AD /* Preview Content */,
+				A0C80BBF22B2F41E007BB8AD /* UIImageExtension.swift */,
 			);
 			path = "SwiftUI Demo";
 			sourceTree = "<group>";
@@ -268,7 +286,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0C80B8622B1FCCB007BB8AD /* AppDelegate.swift in Sources */,
+				A0C80BBA22B20853007BB8AD /* HeaderView.swift in Sources */,
+				A0C80BB622B20406007BB8AD /* MapView.swift in Sources */,
+				A0C80BBE22B21A68007BB8AD /* UberMapView.swift in Sources */,
+				A0C80BB822B20702007BB8AD /* TripPlannerView.swift in Sources */,
+				A0C80BC022B2F41E007BB8AD /* UIImageExtension.swift in Sources */,
 				A0C80B8822B1FCCB007BB8AD /* SceneDelegate.swift in Sources */,
+				A0C80BBC22B20C5C007BB8AD /* GoButtonView.swift in Sources */,
 				A0C80B8A22B1FCCB007BB8AD /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
